@@ -1,11 +1,10 @@
 @import "tailwindcss";
+@import "tailwindcss/preflight";
 @import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
 
 /* In your global CSS file (e.g., globals.css) */
-@tailwind base;
-@tailwind components;
 @tailwind utilities;
 
 @keyframes gradient {
